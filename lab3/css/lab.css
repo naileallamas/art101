@@ -1,3 +1,10 @@
+
 #file-structure {
     width: 1000px;
+    border-style: outset;
+    border-color: black;
+}
+#content {
+  background-color: black;
+  font-family: "Times New Roman" fantasy;
 }

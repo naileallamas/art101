@@ -1,3 +1,7 @@
 #jscomment{
     width: 1000px;
 }
+#content {
+  background-color: black;
+  font-family: "Times New Roman" fantasy;
+}

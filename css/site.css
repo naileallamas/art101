@@ -1,8 +1,25 @@
 body {
-  background-color: #a3a3a3;
+  width: 900px;
+  height: 900px;
+  background-size: 200px;
+  background-image: url("../img/sitebackground.png");
+  background-repeat: repeat;
 }
 #my-portrait {
     width: 300px;
     border-style: outset;
-    border-color: red;
+    border-color: black;
+}
+#mainbody {
+  background-color: black;
+  font-family: "Times New Roman" fantasy;
+}
+
+#box {
+  width: 1300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 50px;
+  color: lightgrey;
+  background-color:rgba(0, 0, 0, 0.5);
 }
