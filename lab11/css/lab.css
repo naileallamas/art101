@@ -1,0 +1,14 @@
+#content {
+  background-color: black;
+  font-family: "Times New Roman" fantasy;
+}
+.output {
+  background-color: gray;
+  font-family: "Times New Roman" fantasy;
+}
+p{
+  color : black;
+}
+.selected {
+  color:red;
+}
