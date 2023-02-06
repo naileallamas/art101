@@ -1,25 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#title {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
 body {
-  width: 900px;
-  height: 900px;
-  background-size: 200px;
-  background-image: url("../img/sitebackground.png");
-  background-repeat: repeat;
-}
-#my-portrait {
-    width: 300px;
-    border-style: outset;
-    border-color: black;
-}
-#mainbody {
-  background-color: black;
-  font-family: "Times New Roman" fantasy;
+    margin:0;
+    padding:0;
 }
 
 #box {
-  width: 1300px;
-  border: 15px solid black;
-  padding: 50px;
-  margin: 50px;
-  color: lightgrey;
-  background-color:rgba(0, 0, 0, 0.5);
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  font-size: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  float: left;
+  width: 33.19%;
+  padding: 5px;
+  margin-left: 0.1%;
+
+  margin-top: 20px;
+}
+
+.button :hover {
+  color: grey;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+
+#illustration{
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+
+#name{
+  width: 20%
+}
+
+#name:hover {
+  opacity: 0.4;
+}
+
+#yes{
+    width: 50%;
+}
+
+#illustrationsport{
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  margin-top: 70px
+
+}
+
+#writingport{
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  margin-top: 70px
+
+}
+
+#gamesport{
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  margin-top: 70px
+
 }

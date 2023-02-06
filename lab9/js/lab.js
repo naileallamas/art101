@@ -10,6 +10,7 @@
 
  //create a new element
  var new1El = document.createElement("p");
+
  //change HTML
  new1El.innerHTML = "i am struggling";
 
