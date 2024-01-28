@@ -1,82 +1,50 @@
 <!DOCTYPE html>
-
+<html>
 	<head>
+
 		<title>Portfolio_Homepage</title>
 		<link rel="stylesheet" type="text/css" href="../css/site.css">
 		<link rel="stylesheet" type="text/css" href="css/site.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="js/site.js" defer></script>
 	</head>
 
 	<body>
-		<main>
 
-			<!-- sliding divider -->
-					<div id="illustration">
-					<!--	<a href="#home"><img id="name" src="img/header.jpeg"> -->
-							<div class="clearfix">
-								<div id="project1" class="button">
-									<a href= "#pp1" ><h2>ABOUT</h2></a>
-								</div>
+			<div class="topnav" id="myTopnav">
+			  <a href="#gallerybox" class="active">HOME</a>
+			  <a href="projects/index.html">PROJECTS</a>
+			  <a href="writings/index.html">WRITINGS</a>
+			  <a href= "about/index.html">ABOUT</a>
+				<a href="#scrltocntct">CONTACT</a>
+			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			    <i class="fa fa-bars"></i>
+			  </a>
+			</div>
 
-								<div id="project2" class="button">
-									<a href="#pp2"><h2>Project2</h2></a>
-								</div>
-
-								<div id="project3" class="button">
-									<a href="#pp3"><h2>Project3</h2></a>
-								</div>
-
-								<div id="project4" class="button">
-									<a href="#pp3"><h2>Project4</h2></a>
-								</div>
-
-								<!--<div id="project5" class="button">
-									<a href="#pp3"><h2>Project5</h2></a>
-								</div>
-
-								<div id="project6" class="button">
-									<a href="#pp3"><h2>Project6</h2></a>
-								</div> -->
-
-
-							</div>
+			<!-- opening image and name -->
+					<a id="home">
+						<div id="gallerybox">
+							<img id="title" class="ocean" src="img/bckgrnd.png">
 						</div>
-					</div>
-<!-- opening image and project buttons -->
-		<a id="home">
-			<div id="box">
-				<img id="title" src="img/titlepage.png">
+					</a>
 
-				<!--<div id="projects">
-					<a><h2>Projects</h2></a>
-				</div> -->
+			<!-- text above image -->
+					<a>
+						<div id="galleryboxoutline" class="centername">
+							<div class="centered" style="font-size:6vw;">NAILEA LLAMAS</div>
+							<div class="centeredbelow" style="font-size:3vw;">GAME DESIGNER|WRITER|NEW MEDIA ARTIST</div>
+						</div>
+					</a>
 
-
-			</div>
-		</a>
-
-
-
-
-<!-- buttons to different webstites -->
-		<div class="clearfix">
-
-			<div id="illbutt" class="button">
-				<a href= "https://www.w3schools.com/html/html_links.asp" ><h2>INSTA</h2></a>
-			</div>
-
-			<div id="writbutt" class="button">
-				<a href="https://www.w3schools.com/html/html_links.asp"><h2>✉</h2></a>
-			</div>
-
-			<div id="gambutt" class="button">
-				<a href="https://www.w3schools.com/html/html_links.asp"><h2>OTHER</h2></a>
-			</div>
-		</div>
-
-
-
-
-
+			<!-- contact -->
+					<a id="scrltocntct">
+						<div id="contactinfo">
+							<p>SANTA CRUZ, CA</p>
+							<p>naileallamas@gmail.com</p>
+						</div>
+					</a>
 <!-- pages that are jumped to
 		<a id="pp1">
 			<div id="illustrationsport">
@@ -97,8 +65,54 @@
 			</div>
 		</a>
 		</main>
+
+buttons on bottom of screen
+		<div class="clearfix">
+
+			<div id="illbutt" class="button">
+				<a href= "https://www.w3schools.com/html/html_links.asp" ><h2>INSTA</h2></a>
+			</div>
+
+			<div id="writbutt" class="button">
+				<a href="https://www.w3schools.com/html/html_links.asp"><h2>✉</h2></a>
+			</div>
+
+			<div id="gambutt" class="button">
+				<a href="https://www.w3schools.com/html/html_links.asp"><h2>OTHER</h2></a>
+			</div>
+		</div>
+
+		.centername {
+		  color: white;
+		  font-family: 'Palatino Linotype';
+		  font-size: 60px;
+		}
+
+............
+		<div id="linkborder">
+
+				<div class="clearfix">
+					<div id="project1" class="button">
+						<a href= "about/index.html"><h2>ABOUT</h2></a>
+					</div>
+
+					<div id="project2" class="button">
+						<a href="projects/index.html"><h2>PROJECTS</h2></a>
+					</div>
+
+					<div id="project3" class="button">
+						<a href="about/index.html"><h2>WRITINGS</h2></a>
+					</div>
+
+					<div id="project4" class="button">
+						<a href="#scrltocntct"><h2>CONTACT</h2></a>
+					</div>
+
+					<div id="project5" class="button">
+						<a href="#box"><h2>HOME</h2></a>
+					</div>
 		-->
 
 
-</body>
+	</body>
 </html>
