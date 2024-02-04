@@ -4,7 +4,7 @@ html {
 
 body {
     margin:0;
-    background-color: black;
+    background-color: #29362c;
 }
 
 * {
@@ -45,7 +45,7 @@ a {
 }
 
 .topnav a.active {
-  background-color: #29362c;
+  background-color: rgba(0, 0, 0, 0);
   color: white;
 }
 
@@ -80,18 +80,23 @@ a {
   }
 }
 
-#title {
-    width: auto;
-    height: 780px;
-    object-fit: cover;
-}
-
-#gallerybox {
+#home{
   height: 780px;
   width: 100%;
   position: absolute;
   top: 0px;
-  background-color: red;
+  z-index: -1;
+
+}
+
+
+#gallerybox {
+  background-color: blue;
+  height: 30%;
+  width: 70%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
   z-index: -1;
   clip-path: border-box;
 }
@@ -102,6 +107,22 @@ a {
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(0, 0, 0, 0);
+}
+
+#abouttext {
+  background-color: green;
+  position: absolute;
+  top: 50%;
+  padding-right: 15%;
+  padding-left: 15%;
+
+}
+
+#moveover {
+  float: right;
+  height: 350px;
+  width: auto;
+  margin-left:10%;
 }
 
 #contactinfo{
