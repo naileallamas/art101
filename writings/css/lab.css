@@ -7,10 +7,6 @@ body {
     background-color: #29362c;
 }
 
-* {
-  box-sizing: border-box;
-  outline: 1px solid red;
-}
 
 a {
   text-decoration:none;
@@ -40,8 +36,8 @@ a {
 }
 
 .topnav a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #29362c;
 }
 
 .topnav a.active {
@@ -51,12 +47,13 @@ a {
 
 .topnav a.active:hover {
   background-color: white;
-  color: black;
+  color: #29362c;
 }
 
 .topnav .icon {
   display: none;
 }
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -86,7 +83,6 @@ a {
   position: absolute;
   top: 0px;
   z-index: -1;
-
 }
 
 #gallerybox {
@@ -109,9 +105,8 @@ a {
 div.gallery {
   border: 1px solid #ccc;
   float: right;
-  width: 600px;
-  padding-right: 15%;
-
+  width: 320px;
+  margin-left: 4.5%;
 }
 
 div.gallery:hover {
@@ -124,21 +119,17 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 10%;
+  padding: 5%;
   text-align: center;
 }
 
-#dude{
+#options{
   background-color:pink;
-  width:100%;
+  width: 100%;
   height:auto;
   overflow: auto;
-  margin-top:10%;
-}
-
-#fart{
-	background-color:yellow;
-  padding-left:15%;
+  margin-top: 10%;
+  padding-right: 15%;
 }
 
 #boundary{

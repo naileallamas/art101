@@ -7,10 +7,6 @@ body {
     background-color: #29362c;
 }
 
-* {
-  box-sizing: border-box;
-  outline: 1px solid red;
-}
 
 a {
   text-decoration:none;
@@ -40,8 +36,8 @@ a {
 }
 
 .topnav a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #29362c;
 }
 
 .topnav a.active {
@@ -51,12 +47,13 @@ a {
 
 .topnav a.active:hover {
   background-color: white;
-  color: black;
+  color: #29362c;
 }
 
 .topnav .icon {
   display: none;
 }
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -107,12 +104,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(0, 0, 0, 0);
+  font-family: 'Palatino Linotype';
 }
 
 #abouttext {
   background-color: green;
   position: absolute;
-  top: 50%;
+  top: 55%;
   padding-right: 15%;
   padding-left: 15%;
 
